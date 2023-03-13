@@ -22,7 +22,7 @@ class PuppyTest(TestCase):
         puppy_casper = Puppy.objects.get(name='Casper')
         puppy_muffin = Puppy.objects.get(name='Muffin')
         self.assertEqual(
-            puppy_casper.get_breed(), "Casper belongs to Bull Dog bread."
+            puppy_casper.get_breed(), "Casper belongs to Bull Dog breed."
         )
         self.assertEqual(
             puppy_muffin.get_breed(), "Muffin belongs to Gradane breed."

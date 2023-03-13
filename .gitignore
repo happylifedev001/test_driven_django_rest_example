@@ -1,3 +1,4 @@
 puppy_store/__pycache__/
 puppies/migrations/
 puppies/__pycache__/
+puppies/tests/__pycache__/
